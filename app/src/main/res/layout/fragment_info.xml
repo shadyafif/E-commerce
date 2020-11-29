@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.InfoFragment">
+
+    <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/background1"
+    android:padding="5dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:popupTheme="@style/PopupOverlay">
+
+</androidx.appcompat.widget.Toolbar>
+
+
+
+    <TextView
+        android:id="@+id/txt_Info_UpdateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="casual"
+        android:text="@string/AccountUpdate"
+        android:textColor="@color/InfoText"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/ic_contact"
+        app:layout_constraintBottom_toTopOf="@+id/View_Account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <View
+        android:id="@+id/View_Account"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/ViewColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Info_UpdateAccount" />
+
+    <TextView
+        android:id="@+id/txt_Info_WishLish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="casual"
+        android:gravity="start"
+        android:text="@string/WishList"
+        android:textAlignment="textStart"
+        android:textColor="@color/InfoText"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/ic_favorite"
+        app:layout_constraintBottom_toTopOf="@+id/View_Favorite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View_Account" />
+
+    <View
+        android:id="@+id/View_Favorite"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/ViewColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Info_WishLish" />
+
+    <TextView
+        android:id="@+id/txt_Info_Language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="casual"
+        android:gravity="end"
+        android:text="@string/Language"
+        android:textColor="@color/InfoText"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/ic_language"
+        app:layout_constraintBottom_toTopOf="@+id/View_Language"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View_Favorite" />
+
+    <View
+        android:id="@+id/View_Language"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/ViewColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Info_Language" />
+
+    <TextView
+        android:id="@+id/txt_Info_Roles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="casual"
+        android:gravity="end"
+        android:text="@string/Roles"
+        android:textColor="@color/InfoText"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/ic_block"
+        app:layout_constraintBottom_toTopOf="@+id/View_Roles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View_Language" />
+
+    <View
+        android:id="@+id/View_Roles"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/ViewColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Info_Roles" />
+
+    <TextView
+        android:id="@+id/txt_Info_Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="casual"
+        android:gravity="end"
+        android:text="@string/ShareApp"
+        android:textColor="@color/InfoText"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/ic_share"
+        app:layout_constraintBottom_toTopOf="@+id/View_Share"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View_Roles" />
+
+    <View
+        android:id="@+id/View_Share"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/ViewColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Info_Share" />
+
+    <TextView
+        android:id="@+id/txt_Info_ContactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="casual"
+        android:gravity="end"
+        android:text="@string/ContactUs"
+        android:textColor="@color/InfoText"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/ic_contact_us"
+        app:layout_constraintBottom_toTopOf="@+id/View_ContactUs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View_Share" />
+
+    <View
+        android:id="@+id/View_ContactUs"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/ViewColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Info_ContactUs" />
+</androidx.constraintlayout.widget.ConstraintLayout>

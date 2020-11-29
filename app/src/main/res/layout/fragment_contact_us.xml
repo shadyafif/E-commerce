@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/background1"
+        android:gravity="end"
+        android:padding="5dp"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/PopupOverlay">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/background"
+        app:layout_constraintEnd_toStartOf="@+id/toolbar"
+        app:layout_constraintStart_toEndOf="@+id/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_ContactUs_Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:drawableEnd="@drawable/ic_person"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/name"
+            android:padding="10dp"
+            android:textAlignment="textEnd"
+            android:textSize="15sp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_Email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/background"
+        app:layout_constraintEnd_toStartOf="@+id/toolbar"
+        app:layout_constraintStart_toEndOf="@+id/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Name">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_ContactUs_Email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:drawableEnd="@drawable/ic_mail"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/Email"
+            android:padding="10dp"
+            android:textAlignment="textEnd"
+            android:textSize="15sp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_Phone"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/background5"
+        app:layout_constraintEnd_toStartOf="@+id/toolbar"
+        app:layout_constraintStart_toEndOf="@+id/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Email">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_ContactUs_Phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:drawableEnd="@drawable/ic_phone"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/Phone"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textAlignment="textEnd"
+            android:textSize="15sp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtContactUsSms"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="@color/background"
+        app:layout_constraintEnd_toStartOf="@+id/toolbar"
+        app:layout_constraintStart_toEndOf="@+id/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Phone">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_ContactUs_Message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+
+            android:focusableInTouchMode="true"
+            android:gravity="top"
+            android:hint="@string/Message"
+            android:lines="8"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_ContactUs_Send"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtContactUsSms"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/Iv_ContactUs_Face"
+        android:background="#199E73"
+        android:text="@string/Send"
+        android:textColor="@color/colorBottomNav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtContactUsSms" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Iv_ContactUs_Face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/ic_face"
+        app:layout_constraintCircleRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Iv_ContactUs_Twitter"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ContactUs_Send" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Iv_ContactUs_Twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/ic_twitter"
+        app:layout_constraintCircleRadius="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/Iv_ContactUs_Face"
+        app:layout_constraintStart_toEndOf="@+id/Iv_ContactUs_Insta"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ContactUs_Send" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Iv_ContactUs_Insta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_instagram"
+        app:layout_constraintEnd_toStartOf="@+id/Iv_ContactUs_Twitter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ContactUs_Send" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

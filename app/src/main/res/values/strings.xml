@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">My Store</string>
+
+    <string name="title_home">home</string>
+    <string name="title_catagory">catagories</string>
+    <string name="title_offers">offers</string>
+    <string name="title_account">account</string>
+    <string name="title_infomation">info</string>
+    <string name="no_offers_available">Sorry no offers available</string>
+    <string name="Doller_sign">$</string>
+    <string name="AddedSuccessfully">Added successfully…</string>
+    <string name="Deleted">Deleted successfully…</string>
+    <string name="AccountUpdate">Account Update</string>
+    <string name="WishList">Wish List</string>
+    <string name="Language">Language Change</string>
+    <string name="Roles">Terms and conditions</string>
+    <string name="ShareApp">Share App</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="information">Information</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Shopping">cart</string>
+    <string name="NetWorkCheck">Please Check Your NetWork Connection</string>
+    <string name="do_you_realy_want_to_delete_all_wish_list">Do you realy want to delete all wish list ?</string>
+    <string name="delete_items">Delete Items</string>
+    <string name="quantity">Quantity</string>
+    <string name="description">Description :</string>
+    <string name="you_may_like">You May Like :</string>
+    <string name="One">1</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone number</string>
+    <string name="Message">Message</string>
+    <string name="name">Name</string>
+    <string name="Send">Send</string>
+    <string name="FollowUs">follow us</string>
+    <string name="shipping">shipping</string>
+    <string name="subtotal">subtotal</string>
+    <string name="taxes">taxes</string>
+    <string name="total">Total</string>
+    <string name="Checkout">Checkout</string>
+    <string name="MyCart">My Cart</string>
+    <string name="DeleteCartList"> do you realy want to delete all Cart list ?</string>
+    <string name="Offers">Offers</string>
+    <string name="EmptyCart">Your Cart Is Empty</string>
+    <string name="CashDelivery">Pay with cash upon delivery</string>
+    <string name="CashOnDelivery">Cash on delivery</string>
+    <string name="CreditCard">Credit Card (Strip)</string>
+    <string name="Complete">Complete</string>
+    <string name="card_number">Card Number</string>
+    <string name="yy_mm">MM/YY</string>
+    <string name="ctv">CVC</string>
+    <string name="CardTest">Pay with your credit card via Stripe. TEST MODE ENABLED. In test mode, you can use the card number 4242424242424242 with any CVC and a valid expiration date or check the Testing Stripe documentation for more card numbers.</string>
+    <string name="checkout">Checkout</string>
+    <string name="payment">Payment</string>
+    <string name="review">Review</string>
+    <string name="cart_details">Cart details</string>
+    <string name="address">Address</string>
+    <string name="post_code">Post code</string>
+    <string name="enter_zip">Enter Zip for City and State</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="Back">back</string>
+
+</resources>
