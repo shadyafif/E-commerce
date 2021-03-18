@@ -1,6 +1,6 @@
 # E-Commerce App
 ## Table of contents
-- (/General info)
+- <a href="#General info"> General info</a>
 - Screenshotes
 - Technolgies
 - Setup
