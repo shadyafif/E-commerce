@@ -1,11 +1,11 @@
 # E-Commerce App
 ## Table of contents
 - [General info](#General-info)
-- [Screenshotes](#Screen-shotes) 
-- Technolgies
-- Setup
-- Youtube link
-- License
+- [Screenshotes](#Screenshotes) 
+- [Technolgies] (#Technolgies)
+- [Setup](#Setup)
+- [Youtube link](#Youtube-link) 
+- [License](#License)
 
 ## General info
 This android app created with woo commerce api, included with all functionality related to e-commerce, Signup, Home, Details, Cart, Wishlist, Checkout screens expect payment gateway, i will add it soon.
