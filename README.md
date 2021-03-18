@@ -2,7 +2,7 @@
 ## Table of contents
 - [General info](#General-info)
 - [Screenshotes](#Screenshotes) 
-- [Technolgies] (#Technolgies)
+- [Technolgies](#Technolgies)
 - [Setup](#Setup)
 - [Youtube link](#Youtube-link) 
 - [License](#License)
