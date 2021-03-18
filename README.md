@@ -1,6 +1,6 @@
 # E-Commerce App
 ## Table of contents
-- General info (https://github.com/shadyafif/E-commerce/edit/master/README.md/Screenshotes)
+-  [General info](#General info)
 - Screenshotes 
 - Technolgies
 - Setup
