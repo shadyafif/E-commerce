@@ -5,7 +5,7 @@
 - [Technolgies](#Technolgies)
 - [Setup](#Setup)
 - [Youtube link](#Youtube-link) 
-- [License](#License)
+- [License](#Licence)
 
 ## General info
 This android app created with woo commerce api, included with all functionality related to e-commerce, Signup, Home, Details, Cart, Wishlist, Checkout screens expect payment gateway, i will add it soon.
