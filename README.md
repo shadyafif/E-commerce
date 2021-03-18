@@ -2,7 +2,7 @@
 ## Table of contents
 - #General info
 - #Screenshotes 
-- #Technolgies
+- ## Technolgies
 - #Setup
 - #Youtube link
 - #License
