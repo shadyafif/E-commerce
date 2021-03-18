@@ -1,7 +1,7 @@
 # E-Commerce App
 ## Table of contents
 - [General info](#General-info)
-- [Screenshotes](#Screenshotes) 
+- [Screenshotes](#Screen-shotes) 
 - Technolgies
 - Setup
 - Youtube link
