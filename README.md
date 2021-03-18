@@ -1,7 +1,7 @@
 # E-Commerce App
 ## Table of contents
 - <a href="#General info"> General info</a>
-- Screenshotes
+- Screenshotes <a href="#Screenshotes">Screenshotes</a>
 - Technolgies
 - Setup
 - Youtube link
