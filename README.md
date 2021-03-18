@@ -26,5 +26,5 @@ This android app created with woo commerce api, included with all functionality 
  - Broadcast receiver
  
  ### Libraries 
- - [Retrofit 2.9.0](https://square.github.io/retrofit/)
+ - Retrofit 2.9.0 (https://square.github.io/retrofit/)
  
