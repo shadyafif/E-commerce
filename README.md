@@ -1,6 +1,6 @@
 # E-Commerce App
 ## Table of contents
-- (General info)
+- [General info)]
 - Screenshotes
 - Technolgies
 - Setup
