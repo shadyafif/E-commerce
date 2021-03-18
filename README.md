@@ -2,7 +2,7 @@
             <h1>E-Commerce App</h1>
             <h3>Table of contents :</h3>
             <ul>
-                <li><a href="#General">General info</a></li>
+<a href="#General">General info</a>
                 <li><a href="#Screenshots">Screenshots</a></li>
                 <li><a href="#Technologies">Technologies</a></li>
                 <li><a href="#Setup">Setup</a></li>
