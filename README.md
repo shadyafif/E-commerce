@@ -1,4 +1,4 @@
-        <div>
+
             <h1>E-Commerce App</h1>
             <h3>Table of contents :</h3>
             <ul>
@@ -9,7 +9,6 @@
                 <li><a href="#YouTube">YouTube Link</a></li>
                 <li><a href="#License">License</a></li>
             </ul>
-        </div>
   <div id="General">
       <h1>General info</h1>
       <p>This android app created with woo commerce api, included with all functionality related to e-commerce, Signup, Home, Details, Cart, Wishlist, Checkout screens expect payment gateway, i will add it soon.</p>
