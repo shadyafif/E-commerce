@@ -13,14 +13,14 @@ This android app created with woo commerce api, included with all functionality 
 ## Screenshots
 <img src="/images/SplashScreen.jpg" width="300"/> <img src="/images/HomeScreen.jpg" width="300">
 <img src="/images/CategoriesScreen.jpg" width="300">
-<img src="/images/OffersScreen.jpg" width="250">
-<img src="/images/ContactUsScreen.jpg" width="250">
-<img src="/images/TermsScreen.jpg" width="250">
-<img src="/images/WishListScreen.jpg" width="250">
-<img src="/images/DeleteWishListScreen.jpg" width="250">
-<img src="/images/CartScreen.jpg" width="250">
-<img src="/images/DeleteCartListScreen.jpg" width="250">
-<img src="/images/ReqisterScreen.jpg" width="250">
+<img src="/images/OffersScreen.jpg" width="300">
+<img src="/images/ContactUsScreen.jpg" width="300">
+<img src="/images/TermsScreen.jpg" width="300">
+<img src="/images/WishListScreen.jpg" width="300">
+<img src="/images/DeleteWishListScreen.jpg" width="300">
+<img src="/images/CartScreen.jpg" width="300">
+<img src="/images/DeleteCartListScreen.jpg" width="300">
+<img src="/images/ReqisterScreen.jpg" width="300">
 ## Technolgies
 ### Languages :
 - Java 
