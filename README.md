@@ -11,7 +11,16 @@
 This android app created with woo commerce api, included with all functionality related to e-commerce, Signup, Home, Details, Cart, Wishlist, Checkout screens expect payment gateway, i will add it soon.
 
 ## Screenshots
-
+<img src="/images/SplashScreen.jpg" width="250"/> <img src="/images/HomeScreen.jpg" width="250">
+<img src="/images/CategoriesScreen.jpg" width="250">
+<img src="/images/OffersScreen.jpg" width="250">
+<img src="/images/ContactUsScreen.jpg" width="250">
+<img src="/images/TermsScreen.jpg" width="250">
+<img src="/images/WishListScreen.jpg" width="250">
+<img src="/images/DeleteWishListScreen.jpg" width="250">
+<img src="/images/CartScreen.jpg" width="250">
+<img src="/images/DeleteCartListScreen.jpg" width="250">
+<img src="/images/ReqisterScreen.jpg" width="250">
 ## Technolgies
 ### Languages :
 - Java 
@@ -46,7 +55,7 @@ To run this project, install it by download or clone. Then you need to register 
 ## Youtube link 
 ## Licence
 ### MIT Licence 
-### Copyright (c) 2020 SHADY AFIF 
+### Copyright (c) 2021 SHADY AFIF 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 and associated documentation files (the "Software"), to deal in the Software without restriction,
 including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
