@@ -13,7 +13,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
-    private static final String BASE_URL = "https://re-shop.arabprospect.com/wp-json/wc/v3/";
+    private static final String BASE_URL = "https://arabdemos.wpmudev.host/dropshiper/wp-json/wc/v3/";
     private static com.example.e_commerce.data.network.RetrofitClient mInstance;
     private Retrofit retrofit;
 
